@@ -1,0 +1,99 @@
+.MakeBlogContainer {
+    background-color: white;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+header .RightHeader {
+    display: flex;
+    font-size: 19px;
+}
+
+header .RightHeader a {
+    color: #515151;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: color 0.2s ease;
+}
+
+header .RightHeader a:hover {
+    color: #333;
+}
+
+/* main section */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+main .inputField .firstField {
+    display: flex;
+    justify-content: space-between;
+}
+
+main input {
+    width: 49%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #515151;
+    border-radius: 7px;
+    font-size: 16px;
+    transition: border-color 0.2s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+main input:focus {
+    border-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+main .inputField .secondField input {
+    width: 100%;
+}
+
+main .publishbtn button {
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #515151;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    height: 2.2rem;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.2s ease;
+}
+
+main .publishbtn button:hover {
+    background-color: #333;
+}
+
+main .preview {
+    width: 55%;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #515151;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.preview h2 {
+    margin-top: 0;
+}
+
+.preview div {
+    padding: 20px;
+}
